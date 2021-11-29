@@ -11,7 +11,7 @@ public class DemoAzureApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "CHEESE";
+		return "ALPHA CHEESE";
 	}
 
 	public static void main(String[] args) {
