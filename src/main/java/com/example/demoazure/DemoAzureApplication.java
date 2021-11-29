@@ -14,6 +14,11 @@ public class DemoAzureApplication {
 		return "ALPHA CHEESE";
 	}
 
+	@GetMapping("/message2")
+	public String message2(){
+		return "ALPHA CHEESE2";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoAzureApplication.class, args);
 	}
